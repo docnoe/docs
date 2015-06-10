@@ -11,7 +11,8 @@ Deployd modules are 100% compatible with regular [node modules](http://npmjs.org
 
 ### Hello World
 
-Any module in your app's `node_modules` folder will be loaded when the Deployd server starts.
+Any module in your app's `node_modules` folder will be loaded when the Deployd server starts. 
+**Since v0.8.0 it is mandotory to have custom modules and plugins defined in the dependencies in package.json!**
 
 You don't have to `require()` or load anything to instantiate your module. The following will log 'hello world' when you run `dpd`.
 
